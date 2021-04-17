@@ -1,7 +1,7 @@
 import {render, screen} from "@testing-library/react"
 import React from "react"
 
-import Link from "../src/Link"
+import Link from "../src"
 
 test("shows html link", () => {
     render(<Link to="https://example.com">Example</Link>)
