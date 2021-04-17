@@ -13,7 +13,7 @@ _Starter for `react` libraries._
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://bradgarropy.com"><img src="https://avatars.githubusercontent.com/u/11336745?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Brad Garropy</b></sub></a><br /><a href="https://github.com/bradgarropy/react-library-starter/commits?author=bradgarropy" title="Code">💻</a> <a href="https://github.com/bradgarropy/react-library-starter/commits?author=bradgarropy" title="Documentation">📖</a> <a href="https://github.com/bradgarropy/react-library-starter/commits?author=bradgarropy" title="Tests">⚠️</a> <a href="#infra-bradgarropy" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+    <td align="center"><a href="https://bradgarropy.com"><img src="https://avatars.githubusercontent.com/u/11336745?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Brad Garropy</b></sub></a><br /><a href="https://github.com/bradgarropy/gatsby-link/commits?author=bradgarropy" title="Code">💻</a> <a href="https://github.com/bradgarropy/gatsby-link/commits?author=bradgarropy" title="Documentation">📖</a> <a href="https://github.com/bradgarropy/gatsby-link/commits?author=bradgarropy" title="Tests">⚠️</a> <a href="#infra-bradgarropy" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
   </tr>
 </table>
 
@@ -22,9 +22,9 @@ _Starter for `react` libraries._
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-[codecov]: https://app.codecov.io/gh/bradgarropy/react-library-starter
-[contributing]: https://github.com/bradgarropy/react-library-starter/blob/master/contributing.md
+[codecov]: https://app.codecov.io/gh/bradgarropy/gatsby-link
+[contributing]: https://github.com/bradgarropy/gatsby-link/blob/master/contributing.md
 [contributors]: #-contributors
-[codecov-badge]: https://img.shields.io/codecov/c/github/bradgarropy/react-library-starter?style=flat-square
+[codecov-badge]: https://img.shields.io/codecov/c/github/bradgarropy/gatsby-link?style=flat-square
 [contributing-badge]: https://img.shields.io/badge/PRs-welcome-success?style=flat-square
-[contributors-badge]: https://img.shields.io/github/all-contributors/bradgarropy/react-library-starter?style=flat-square
+[contributors-badge]: https://img.shields.io/github/all-contributors/bradgarropy/gatsby-link?style=flat-square
