@@ -1,10 +1,65 @@
-# ⚛ react library starter
+# 🔗 gatsby link
 
 [![coverage][codecov-badge]][codecov]
 [![contributing][contributing-badge]][contributing]
 [![contributors][contributors-badge]][contributors]
 
-_Starter for `react` libraries._
+_🔗 link component for [gatsby][gatsby]_
+
+## 📦 Installation
+
+This package is hosted on [npm][npm].
+
+```bash
+npm install @bradgarropy/gatsby-link
+```
+
+## 🥑 Usage
+
+// TODO: Add a description here.
+
+```javascript
+import Link from "@bradgarropy/gatsby-link"
+
+const App = () => {
+    return (
+      <Link to="/">home</Link>
+      <Link to="https://bradgarropy.com">site</Link>
+    )
+}
+```
+
+## 📖 API Reference
+
+### `<Link>`
+
+| Name | Required | Default |           Example           | Description     |
+| :--- | :------: | :-----: | :-------------------------: | :-------------- |
+| `to` |  `true`  |         | `"https://bradgarropy.com"` | URL to link to. |
+
+Starts a countdown timer based on the number of minutes and seconds provided. The returned `countdown` object updates once per second and stops when the timer hits zero.
+
+TODO
+
+```javascript
+// internal link
+<Link to="/">home</Link>
+
+// internal link with additional props
+<Link to="/" className="nav-link">home</Link>
+
+// external link
+<Link to="https://bradgarropy.com">site</Link>
+
+// external link with additional props
+<Link to="https://bradgarropy.com" className="nav-link">site</Link>
+```
+
+## ❔ Questions
+
+🐛 report bugs by filing [issues][issues]  
+📢 provide feedback with [issues][issues] or on [twitter][twitter]  
+🙋🏼‍♂️ use my [ama][ama] or [twitter][twitter] to ask any other questions
 
 ## ✨ contributors
 
@@ -28,3 +83,8 @@ _Starter for `react` libraries._
 [codecov-badge]: https://img.shields.io/codecov/c/github/bradgarropy/gatsby-link?style=flat-square
 [contributing-badge]: https://img.shields.io/badge/PRs-welcome-success?style=flat-square
 [contributors-badge]: https://img.shields.io/github/all-contributors/bradgarropy/gatsby-link?style=flat-square
+[gatsby]: https://www.gatsbyjs.com
+[npm]: https://www.npmjs.com
+[issues]: https://github.com/bradgarropy/gatsby-link/issues
+[twitter]: https://twitter.com/bradgarropy
+[ama]: https://bradgarropy.com/ama
