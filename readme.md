@@ -12,6 +12,8 @@
 
 _🔗 link component for [gatsby][gatsby]_
 
+[Gatsby][gatsby] provides a [`<Link>`][link] component for routing between internal pages. For external links, you have to use a regular `<a>` tag. This `gatsby-link` package solves that issue by providing a `<Link>` component that handles both internal and external urls.
+
 ## 📦 Installation
 
 This package is hosted on [npm][npm].
@@ -22,7 +24,7 @@ npm install @bradgarropy/gatsby-link
 
 ## 🥑 Usage
 
-// TODO: Add a description here.
+For both internal and external links, use the `Link` component and pass it a `to` prop.
 
 ```jsx
 import Link from "@bradgarropy/gatsby-link"
@@ -40,16 +42,14 @@ const App = () => {
 | :--- | :------: | :-----: | :----------------------------------------- | :------------------------ |
 | `to` |  `true`  |         | `"/home"` <br> `"https://bradgarropy.com"` | Internal or external url. |
 
-Starts a countdown timer based on the number of minutes and seconds provided. The returned `countdown` object updates once per second and stops when the timer hits zero.
-
-TODO
+The component also passes through all other `props`, like `className` or `activeStyle`. See the Gatsby [`Link`][link] documentation for other relevant props. The examples below cover some common uses.
 
 ```jsx
 // internal link
-<Link to="/">home</Link>
+<Link to="/home">home</Link>
 
 // internal link with additional props
-<Link to="/" className="nav-link">home</Link>
+<Link to="/home" className="nav-link">home</Link>
 
 // external link
 <Link to="https://bradgarropy.com">website</Link>
@@ -101,3 +101,4 @@ TODO
 [typescript-badge]: https://img.shields.io/npm/types/@bradgarropy/gatsby-link?style=flat-square
 [discord]: https://bradgarropy.com/discord
 [discord-badge]: https://img.shields.io/discord/748196643140010015?style=flat-square
+[link]: https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-link
