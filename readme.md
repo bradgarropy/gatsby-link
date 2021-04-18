@@ -24,14 +24,11 @@ npm install @bradgarropy/gatsby-link
 
 // TODO: Add a description here.
 
-```javascript
+```jsx
 import Link from "@bradgarropy/gatsby-link"
 
 const App = () => {
-    return (
-      <Link to="/">home</Link>
-      <Link to="https://bradgarropy.com">site</Link>
-    )
+    return <Link to="https://bradgarropy.com">website</Link>
 }
 ```
 
@@ -39,15 +36,15 @@ const App = () => {
 
 ### `<Link>`
 
-| Name | Required | Default |           Example           | Description     |
-| :--- | :------: | :-----: | :-------------------------: | :-------------- |
-| `to` |  `true`  |         | `"https://bradgarropy.com"` | URL to link to. |
+| Name | Required | Default | Example                                    | Description               |
+| :--- | :------: | :-----: | :----------------------------------------- | :------------------------ |
+| `to` |  `true`  |         | `"/home"` <br> `"https://bradgarropy.com"` | Internal or external url. |
 
 Starts a countdown timer based on the number of minutes and seconds provided. The returned `countdown` object updates once per second and stops when the timer hits zero.
 
 TODO
 
-```javascript
+```jsx
 // internal link
 <Link to="/">home</Link>
 
@@ -55,10 +52,10 @@ TODO
 <Link to="/" className="nav-link">home</Link>
 
 // external link
-<Link to="https://bradgarropy.com">site</Link>
+<Link to="https://bradgarropy.com">website</Link>
 
 // external link with additional props
-<Link to="https://bradgarropy.com" className="nav-link">site</Link>
+<Link to="https://bradgarropy.com" className="nav-link">website</Link>
 ```
 
 ## ❔ Questions
