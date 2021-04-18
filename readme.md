@@ -1,8 +1,14 @@
 # 🔗 gatsby link
 
+[![version][version-badge]][npm]
+[![downloads][downloads-badge]][npm]
+[![size][size-badge]][bundlephobia]
+[![github actions][github-actions-badge]][github-actions]
 [![coverage][codecov-badge]][codecov]
+[![typescript][typescript-badge]][typescript]
 [![contributing][contributing-badge]][contributing]
 [![contributors][contributors-badge]][contributors]
+[![discord][discord-badge]][discord]
 
 _🔗 link component for [gatsby][gatsby]_
 
@@ -84,7 +90,17 @@ TODO
 [contributing-badge]: https://img.shields.io/badge/PRs-welcome-success?style=flat-square
 [contributors-badge]: https://img.shields.io/github/all-contributors/bradgarropy/gatsby-link?style=flat-square
 [gatsby]: https://www.gatsbyjs.com
-[npm]: https://www.npmjs.com
+[npm]: https://www.npmjs.com/package/@bradgarropy/gatsby-link
 [issues]: https://github.com/bradgarropy/gatsby-link/issues
 [twitter]: https://twitter.com/bradgarropy
 [ama]: https://bradgarropy.com/ama
+[version-badge]: https://img.shields.io/npm/v/@bradgarropy/gatsby-link.svg?style=flat-square
+[downloads-badge]: https://img.shields.io/npm/dt/@bradgarropy/gatsby-link?style=flat-square
+[bundlephobia]: https://bundlephobia.com/result?p=@bradgarropy/gatsby-link
+[size-badge]: https://img.shields.io/bundlephobia/minzip/@bradgarropy/gatsby-link?style=flat-square
+[github-actions]: https://github.com/bradgarropy/gatsby-link/actions
+[github-actions-badge]: https://img.shields.io/github/workflow/status/bradgarropy/gatsby-link/%F0%9F%9A%80%20release?style=flat-square
+[typescript]: https://www.typescriptlang.org/dt/search?search=%40bradgarropy%2Fgatsby-link
+[typescript-badge]: https://img.shields.io/npm/types/@bradgarropy/gatsby-link?style=flat-square
+[discord]: https://bradgarropy.com/discord
+[discord-badge]: https://img.shields.io/discord/748196643140010015?style=flat-square
