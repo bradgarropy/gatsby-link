@@ -1,15 +1,64 @@
+require("dotenv").config({
+    path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
     siteMetadata: {
-        title: "Gatsby Default Starter",
-        description:
-            "Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.",
-        author: "@gatsbyjs",
+        url: "https://the-great-gatsby-starter.netlify.app",
+        title: "gatsby starter",
+        description: "🥂 the great gatsby starter",
+        keywords: ["gatsby", "react", "scss", "eslint"],
+        email: "bradgarropy@gmail.com",
+        twitter: "bradgarropy",
     },
     plugins: [
-        "gatsby-plugin-react-helmet",
-        "gatsby-plugin-image",
-        "gatsby-transformer-sharp",
-        "gatsby-plugin-sharp",
-        "gatsby-plugin-gatsby-cloud",
+        {
+            resolve: "gatsby-plugin-react-helmet",
+        },
+        {
+            resolve: "gatsby-plugin-manifest",
+            options: {
+                name: "gatsby starter",
+                short_name: "gatsby starter",
+                start_url: "/",
+                background_color: "#ffffff",
+                theme_color: "#ffffff",
+                display: "minimal-ui",
+                icon: "static/favicon.png",
+            },
+        },
+        {
+            resolve: "gatsby-plugin-offline",
+        },
+        {
+            resolve: "gatsby-plugin-web-font-loader",
+            options: {
+                google: {
+                    families: ["Roboto"],
+                },
+            },
+        },
+        {
+            resolve: "gatsby-plugin-layout",
+            options: {
+                component: require.resolve(
+                    "./src/components/Layout/Layout.tsx",
+                ),
+            },
+        },
+        {
+            resolve: "gatsby-plugin-react-svg",
+            options: {
+                rule: {
+                    include: /svg/,
+                },
+            },
+        },
+        {
+            resolve: "gatsby-plugin-catch-links",
+        },
+        {
+            resolve: "@bradgarropy/gatsby-plugin-seo",
+        },
     ],
 }

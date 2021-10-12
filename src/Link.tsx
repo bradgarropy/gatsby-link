@@ -1,9 +1,9 @@
 import {Link as GatsbyLink} from "gatsby"
-import React, {FC} from "react"
+import React, {AnchorHTMLAttributes, FC} from "react"
 
 type LinkProps = {
     to: string
-}
+} & AnchorHTMLAttributes<HTMLAnchorElement>
 
 const Link: FC<LinkProps> = ({to, children, ...props}) => {
     if (to.startsWith("/")) {
