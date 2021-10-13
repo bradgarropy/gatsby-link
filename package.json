@@ -1,6 +1,6 @@
 {
     "name": "@bradgarropy/gatsby-link",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "🔗 link component for gatsby",
     "keywords": [
         "javascript",
@@ -9,7 +9,8 @@
         "eslint",
         "prettier",
         "gatsby",
-        "link"
+        "link",
+        "hacktoberfest"
     ],
     "homepage": "https://github.com/bradgarropy/gatsby-link",
     "bugs": {
